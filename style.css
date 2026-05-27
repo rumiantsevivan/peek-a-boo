@@ -224,10 +224,11 @@ button { font: inherit; cursor: pointer; }
   font-size: 11px; letter-spacing: .25em; text-transform: uppercase;
   color: color-mix(in srgb, var(--paper) 60%, transparent);
   white-space: nowrap;
-  animation: fadeUp 1s 1s both, bounce 2.6s 2s ease-in-out infinite;
+  animation: scrollFadeUp 1s 1s both, scrollBounce 2.6s 2s ease-in-out infinite;
 }
-@keyframes fadeUp { from { opacity: 0; transform: translate(-50%, 24px); } to { opacity: 1; transform: translate(-50%, 0); } }
-@keyframes bounce { 0%, 100% { transform: translate(-50%, 0); } 50% { transform: translate(-50%, 8px); } }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+@keyframes scrollFadeUp { from { opacity: 0; transform: translate(-50%, 24px); } to { opacity: 1; transform: translate(-50%, 0); } }
+@keyframes scrollBounce { 0%, 100% { transform: translate(-50%, 0); } 50% { transform: translate(-50%, 8px); } }
 
 @media (max-width: 600px) {
   .hero { min-height: 94vh; padding-bottom: 80px; }
