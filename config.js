@@ -64,10 +64,10 @@ window.SITE_CONFIG = {
   gallery: [
     "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=900&q=80",
     "https://images.unsplash.com/photo-1632345031435-8727f6897d53?w=900&q=80",
-    "https://images.unsplash.com/photo-1607779097040-26e80aa78e66?w=900&q=80",
-    "https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=900&q=80",
-    "https://images.unsplash.com/photo-1632345031435-8727f6897d53?w=900&q=80",
-    "https://images.unsplash.com/photo-1599206259469-b9c2c1bfd1ad?w=900&q=80",
+    "https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=900&q=80",
+    "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=900&q=80",
+    "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=900&q=80",
+    "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=900&q=80",
   ],
 
   // === Реальные отзывы — микс с 2ГИС и Яндекс.Карт ===
