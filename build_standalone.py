@@ -10,15 +10,15 @@ script = (base / "script.js").read_text(encoding="utf-8")
 
 # Заменяем подключения внешних файлов на инлайн
 html = html.replace(
-    '<link rel="stylesheet" href="style.css?v=7" />',
+    '<link rel="stylesheet" href="style.css?v=8" />',
     f"<style>\n{css}\n</style>",
 )
 html = html.replace(
-    '<script src="config.js?v=7"></script>',
+    '<script src="config.js?v=8"></script>',
     f"<script>\n{config}\n</script>",
 )
 html = html.replace(
-    '<script src="script.js?v=7"></script>',
+    '<script src="script.js?v=8"></script>',
     f"<script>\n{script}\n</script>",
 )
 
